@@ -8,7 +8,7 @@ from config import START_PIC, UPDATES_CHANNEL, GROUP_SUPPORT
 
 
 ALIVE_PIC = START_PIC
-HOME_TEXT = "👋🏻 **Hi Sir [{}](tg://user?id={})** \n\n🤖 Im **Flame Vc Player**. \n**I Can Stream Lives, Radios, Raid, Vc Raid, YouTube Videos & Telegram Video Files On Voice Chat Of Telegram Groups**"
+HOME_TEXT = "👋🏻 **Hi Sir [{}](tg://user?id={})** \n\n🤖 Im **Dhiman Vc Player**. \n**I Can Stream Lives, Radios, Raid, Vc Raid, YouTube Videos & Telegram Video Files On Voice Chat Of Telegram Groups**"
 HELP_TEXT = """
 🏷️ **Setup Guide** :
 
@@ -62,7 +62,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     if query.data=="help":
         buttons = [
             [
-                InlineKeyboardButton("👮 Aᴅᴍɪɴꜱ", url="https://t.me/Flame_Updates/7"),
+                InlineKeyboardButton("👮 ʙᴏᴛ ʟɪsᴛ", url="https://t.me/DhimanBots"),
                 InlineKeyboardButton("🗨️ Uꜱᴇʀꜱ", callback_data="users"),
             ],
             [
@@ -70,7 +70,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton("🗨️ Sᴘᴀᴍ", callback_data="spam"),
             ],
             [
-                InlineKeyboardButton("🤖 ᴏᴡɴᴇʀ", url="t.me/xmartperson"),
+                InlineKeyboardButton("🤖 ᴏᴡɴᴇʀ", url="t.me/Dhimxn"),
             ],
             [
                 InlineKeyboardButton("🔙 Bᴀᴄᴋ", callback_data="home"),
@@ -98,7 +98,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton(" Cʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"),
             ],
             [
-                InlineKeyboardButton("🤖 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ", url="https://github.com/S780821/Flame-Music"),
+                InlineKeyboardButton("🤖 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ", url="https://t.me/DDSRVR"),
             ],
             [
                 InlineKeyboardButton("🤔 Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅꜱ", callback_data="help"),
@@ -191,11 +191,11 @@ async def start(client: Client, message: Message):
                 InlineKeyboardButton("🧐 Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Cʜᴀᴛ", url=f'https://t.me/{USERNAME}?startgroup=true'),
             ],
             [
-                InlineKeyboardButton(" Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP_SUPPORT}"),
-                InlineKeyboardButton(" Oꜰꜰɪᴄɪᴀʟ Cʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"),
+                InlineKeyboardButton(" sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP_SUPPORT}"),
+                InlineKeyboardButton(" ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/{UPDATES_CHANNEL}"),
             ],
             [
-                InlineKeyboardButton("🤖 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ", url="https://github.com/S780821/Flame-Music"),
+                InlineKeyboardButton("🤖 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ", url="https://t.me/DDSRVR"),
             ],
             [
                 InlineKeyboardButton("🤔 Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅꜱ", callback_data="help"),
@@ -210,7 +210,7 @@ async def help(client: Client, message: Message):
     self.username = get_me.username
     buttons = [
             [
-                InlineKeyboardButton("👮 Aᴅᴍɪɴꜱ", url="https://t.me/Flame_Updates/7"),
+                InlineKeyboardButton("👮 ʙᴏᴛ ʟɪsᴛ", url="https://t.me/DhimanBots"),
                 InlineKeyboardButton("🗨️ Uꜱᴇʀꜱ", callback_data="users"),
             ],
             [
@@ -218,7 +218,7 @@ async def help(client: Client, message: Message):
                 InlineKeyboardButton("🗨️ Sᴘᴀᴍ", callback_data="spam"),
             ],
             [
-                InlineKeyboardButton("🤖 ᴏᴡɴᴇʀ", url="t.me/xmartperson"),
+                InlineKeyboardButton("🤖 ᴏᴡɴᴇʀ", url="t.me/Dhimxn"),
             ],
             [
                 InlineKeyboardButton("🔙 Bᴀᴄᴋ", callback_data="home"),
