@@ -16,7 +16,7 @@ deadlyversion = 'Spambot0.10'
 
   
 
-FLAME = "✯ 𝐌𝐮𝐬𝐢𝐜+𝐑𝐚𝐢𝐝 𝐒𝐩𝐚𝐦 𝐁𝐨𝐭 ✯\n\n"
+FLAME = "🖤 ᴍᴜsɪᴄ + ʀᴀɪᴅ + sᴘᴀᴍ ʙᴏᴛ ✯\n\n"
 FLAME += f"═══════════════════\n"
 FLAME += f"• **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `3.10.1`\n"
 FLAME += f"• **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `{version.__version__}`\n"
@@ -31,11 +31,11 @@ async def alive(event):
                                   caption=FLAME,
                                   buttons=[
         [
-        Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/flame_updates"),
-        Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/Flame_project")
+        Button.url("ᴜᴘᴅᴀᴛᴇs", "https://t.me/DDSRVR"),
+        Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/DHIMANdiscus")
         ],
         [
-        Button.url("• ʀᴇᴘᴏ •", "https://github.com/S780821/Flame-Music")
+        Button.url("ʟᴇɢᴇɴᴅ", "https://t.me/Dhimxn")
         ]
         ]
         )
@@ -70,10 +70,10 @@ def get_readable_time(seconds: int) -> str:
 @BOT.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
 async def ping(e):
         start = datetime.now()
-        text = "Pong!"
+        text = "ᴘᴏɴɢ!"
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"🎉 🇵 🇴 🇳 🇬 !\n\n♡︎ `{ms}` 𝗺𝘀 ♡︎")
+        await event.edit(f"🎉 ᴅʜɪᴍᴀɴ ᴘɪɴɢ sᴛᴀᴛs  !\n\n♡︎ `{ms}` 𝗺𝘀 ♡︎")
         
         
